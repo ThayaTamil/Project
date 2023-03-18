@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form Design</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="box">
+
+        <h1>Register Here</h1>
+        <form name="myform2" action="php/register.php" method="POST">
+
+            <p>Username</p>
+            <input type="text" name="username" placeholder="Enter Username" required="">
+
+            <p>Firstname</p>
+            <input type="text" name="firstname" placeholder="Enter Firstname" required="">
+
+            <p>Lastname</p>
+            <input type="text" name="lastname" placeholder="Enter Lastname" required="">
+
+            <p>Email</p>
+            <input type="Email" name="email" placeholder="Enter email id" required="">
+
+            <p>PhoneNumber</p>
+            <input type="number" name="phonenumber" placeholder="Enter phonenumber" required="">
+
+            <p>Password</p>
+            <input type="password" name="password" placeholder="Enter Password" required="">
+
+            <p>Retype Password</p>
+            <input type="password" name="cpassword" placeholder="Re-Enter Password" required="">
+
+            <input type="submit" name="save" value="Register">
+
+            <br><br>
+            <a href="login.html">Existing user, login !?</a>
+        </form>
+    </div>
+
+</body>
+</head>
+</html>
